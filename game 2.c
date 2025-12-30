@@ -1,4 +1,4 @@
-//rock paper scissor   "game"
+//snake, water, gun   "game"
 
 #include<stdio.h>
 int main(){
@@ -17,7 +17,7 @@ if(player==0 && computer==0){
 printf("Its a tie\n");	
 }
 else if(player==0 && computer==1){
-	printf("The player wins\n"); //you may use "you win " or "you lose" instead of player and coputer 
+	printf("The player wins\n"); //you may use "you win " or "you lose" instead of player and computer 
 }
 else if(player==0 && computer==2){
 	printf("The computer wins\n");
@@ -45,3 +45,4 @@ else{
 }
 return 0;
 }
+
